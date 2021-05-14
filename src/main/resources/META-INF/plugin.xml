@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>io.unthrottled.amii.rider</id>
+  <name>Anime Memes - Rider Extension</name>
+  <vendor>Unthrottled</vendor>
+
+  <idea-version since-build="203.5981.141"/>
+
+  <!-- Product and plugin compatibility requirements -->
+  <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.rider</depends>
+  <depends>io.unthrottled.amii</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService serviceImplementation="io.unthrottled.amii.rider.config.Config"/>
+    <applicationService serviceImplementation="io.unthrottled.amii.rider.PluginMaster"/>
+  </extensions>
+
+  <project-components>
+    <component>
+      <implementation-class>io.unthrottled.amii.rider.listeners.RiderTestListener</implementation-class>
+    </component>
+    <component>
+      <implementation-class>io.unthrottled.amii.rider.listeners.RiderTaskListener</implementation-class>
+    </component>
+  </project-components>
+
+  <applicationListeners>
+    <listener class="io.unthrottled.amii.rider.listeners.ProjectListener"
+              topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    <listener class="io.unthrottled.amii.rider.listeners.IDEPluginInstallListener"
+              topic="com.intellij.ide.plugins.DynamicPluginListener"/>
+  </applicationListeners>
+  <projectListeners>
+  </projectListeners>
+  <actions>
+  </actions>
+</idea-plugin>
