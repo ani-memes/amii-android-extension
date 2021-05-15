@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.tools
+package io.unthrottled.amii.android.tools
 
 import com.intellij.util.Alarm
 

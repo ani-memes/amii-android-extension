@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.integrations
+package io.unthrottled.amii.android.integrations
 
 import com.google.gson.GsonBuilder
 import com.intellij.ide.IdeBundle
@@ -21,7 +21,7 @@ import io.sentry.SentryLevel
 import io.sentry.SentryOptions
 import io.sentry.protocol.Message
 import io.sentry.protocol.User
-import io.unthrottled.amii.rider.config.Config
+import io.unthrottled.amii.android.config.Config
 import java.awt.Component
 import java.lang.management.ManagementFactory
 import java.text.SimpleDateFormat

@@ -1,14 +1,14 @@
-package io.unthrottled.amii.rider.onboarding
+package io.unthrottled.amii.android.onboarding
 
 import com.intellij.ide.plugins.PluginManagerCore
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.extensions.PluginId
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.StartupManager
-import io.unthrottled.amii.rider.config.Config
-import io.unthrottled.amii.rider.config.Constants.PLUGIN_ID
-import io.unthrottled.amii.rider.platform.UpdateAssetsListener
-import io.unthrottled.amii.rider.tools.toOptional
+import io.unthrottled.amii.android.config.Config
+import io.unthrottled.amii.android.config.Constants.PLUGIN_ID
+import io.unthrottled.amii.android.platform.UpdateAssetsListener
+import io.unthrottled.amii.android.tools.toOptional
 import java.util.Optional
 import java.util.UUID
 

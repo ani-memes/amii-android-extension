@@ -1,9 +1,9 @@
-package io.unthrottled.amii.rider.listeners
+package io.unthrottled.amii.android.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import io.unthrottled.amii.rider.PluginMaster
-import io.unthrottled.amii.rider.tools.Logging
+import io.unthrottled.amii.android.PluginMaster
+import io.unthrottled.amii.android.tools.Logging
 
 internal class ProjectListener :
   ProjectManagerListener, Logging {

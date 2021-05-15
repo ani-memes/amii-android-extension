@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.platform
+package io.unthrottled.amii.android.platform
 
 import com.intellij.openapi.Disposable
 import com.intellij.openapi.application.ApplicationManager

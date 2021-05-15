@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.tools
+package io.unthrottled.amii.android.tools
 
 interface WhenComparator<T> {
   fun test(other: T): Boolean

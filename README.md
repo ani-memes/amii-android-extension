@@ -11,7 +11,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-studio-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-studio-extension)
 
 <!-- Plugin description -->
-Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin on the Rider Platform.
+Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin on the Android Studio Platform.
 Don't miss out on any of the important features supplied by AMII!
 <!-- Plugin description end -->
 

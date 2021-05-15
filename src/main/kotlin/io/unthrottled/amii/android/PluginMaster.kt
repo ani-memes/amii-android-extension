@@ -1,13 +1,13 @@
-package io.unthrottled.amii.rider
+package io.unthrottled.amii.android
 
 import com.intellij.openapi.Disposable
 import com.intellij.openapi.components.ServiceManager
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManager
 import com.intellij.openapi.project.ProjectManagerListener
-import io.unthrottled.amii.rider.onboarding.UserOnBoarding
-import io.unthrottled.amii.rider.platform.LifeCycleManager
-import io.unthrottled.amii.rider.tools.Logging
+import io.unthrottled.amii.android.onboarding.UserOnBoarding
+import io.unthrottled.amii.android.platform.LifeCycleManager
+import io.unthrottled.amii.android.tools.Logging
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.ConcurrentMap
 

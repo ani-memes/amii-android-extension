@@ -1,10 +1,10 @@
-package io.unthrottled.amii.rider.integrations
+package io.unthrottled.amii.android.integrations
 
 import com.intellij.openapi.diagnostic.Logger
 import com.intellij.util.io.HttpRequests
-import io.unthrottled.amii.rider.integrations.RestTools.performRequest
-import io.unthrottled.amii.rider.tools.readAllTheBytes
-import io.unthrottled.amii.rider.tools.toOptional
+import io.unthrottled.amii.android.integrations.RestTools.performRequest
+import io.unthrottled.amii.android.tools.readAllTheBytes
+import io.unthrottled.amii.android.tools.toOptional
 import java.io.InputStream
 import java.util.Optional
 

@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.config
+package io.unthrottled.amii.android.config
 
 import com.intellij.util.messages.Topic
 import java.util.EventListener

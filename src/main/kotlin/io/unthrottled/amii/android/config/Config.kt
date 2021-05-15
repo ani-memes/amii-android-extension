@@ -1,4 +1,4 @@
-package io.unthrottled.amii.rider.config
+package io.unthrottled.amii.android.config
 
 import com.intellij.openapi.components.PersistentStateComponent
 import com.intellij.openapi.components.ServiceManager
@@ -8,7 +8,7 @@ import com.intellij.util.xmlb.XmlSerializerUtil.copyBean
 import com.intellij.util.xmlb.XmlSerializerUtil.createCopy
 
 @State(
-  name = "Rider-Config",
+  name = "Android-Studio-Config",
   storages = [Storage("AMII.xml")]
 )
 class Config : PersistentStateComponent<Config>, Cloneable {
