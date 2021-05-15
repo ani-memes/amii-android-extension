@@ -11,10 +11,10 @@ import com.intellij.openapi.ui.popup.Balloon
 import com.intellij.openapi.util.Disposer
 import com.intellij.ui.BalloonLayoutData
 import icons.AMIIRiderIcons.PLUGIN_ICON
-import io.unthrottled.amii.assets.MemeAssetCategory
-import io.unthrottled.amii.assets.VisualAssetDefinitionService
 import io.unthrottled.amii.android.config.Constants.PLUGIN_NAME
 import io.unthrottled.amii.android.tools.BalloonTools.fetchBalloonParameters
+import io.unthrottled.amii.assets.MemeAssetCategory
+import io.unthrottled.amii.assets.VisualAssetDefinitionService
 import org.intellij.lang.annotations.Language
 
 @Suppress("MaxLineLength")
