@@ -5,8 +5,8 @@
 # AMII - Android Extension
 
 ![Build](https://github.com/ani-memes/amii-android-extension/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
+[![Version](https://img.shields.io/jetbrains/plugin/v/16802-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16802-anime-memes--android-extension)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/16802-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16802-anime-memes--android-extension)
 
 <!-- Plugin description -->
 Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin and the Android Plugin (eg: Android Studio & Intellij Idea).
