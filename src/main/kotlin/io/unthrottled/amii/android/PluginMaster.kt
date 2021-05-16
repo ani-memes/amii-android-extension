@@ -1,10 +1,12 @@
 package io.unthrottled.amii.android
 
+import com.android.tools.idea.gradle.project.build.invoker.GradleBuildInvoker
 import com.intellij.openapi.Disposable
 import com.intellij.openapi.components.ServiceManager
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManager
 import com.intellij.openapi.project.ProjectManagerListener
+import io.unthrottled.amii.android.listeners.GradleListener
 import io.unthrottled.amii.android.onboarding.UserOnBoarding
 import io.unthrottled.amii.android.platform.LifeCycleManager
 import io.unthrottled.amii.android.tools.Logging
@@ -52,6 +54,10 @@ class PluginMaster : ProjectManagerListener, Disposable, Logging {
 internal data class ProjectListeners(
   private val project: Project,
 ) : Disposable {
+
+  init {
+    GradleBuildInvoker.getInstance(project).add(GradleListener(project))
+  }
 
   override fun dispose() {
   }

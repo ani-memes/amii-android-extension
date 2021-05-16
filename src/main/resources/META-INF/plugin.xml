@@ -8,7 +8,6 @@
   <!-- Product and plugin compatibility requirements -->
   <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
   <depends>com.intellij.modules.platform</depends>
-  <depends>com.intellij.modules.androidstudio</depends>
   <depends>org.jetbrains.android</depends>
   <depends>io.unthrottled.amii</depends>
 

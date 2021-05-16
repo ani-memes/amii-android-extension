@@ -69,7 +69,7 @@ intellij {
   alternativeIdePath = idePath
 
   // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file.
-  setPlugins("io.unthrottled.amii:0.9.2", "android")
+  setPlugins("io.unthrottled.amii:0.9.2", "android", "org.jetbrains.android")
 }
 
 // Configure detekt plugin.
