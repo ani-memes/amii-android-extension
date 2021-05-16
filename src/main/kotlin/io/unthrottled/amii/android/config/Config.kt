@@ -8,7 +8,7 @@ import com.intellij.util.xmlb.XmlSerializerUtil.copyBean
 import com.intellij.util.xmlb.XmlSerializerUtil.createCopy
 
 @State(
-  name = "Android-Studio-Config",
+  name = "Android--Config",
   storages = [Storage("AMII.xml")]
 )
 class Config : PersistentStateComponent<Config>, Cloneable {

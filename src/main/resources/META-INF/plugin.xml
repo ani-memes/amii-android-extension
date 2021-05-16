@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>io.unthrottled.amii.android</id>
-  <name>Anime Memes - Android Studio Extension</name>
+  <name>Anime Memes - Android Extension</name>
   <vendor>Unthrottled</vendor>
 
   <idea-version since-build="203.5981.141"/>

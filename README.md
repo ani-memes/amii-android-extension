@@ -1,17 +1,17 @@
 <div align="center">
-    <img alt="Plugin Logo" height="256px" src="https://raw.githubusercontent.com/ani-memes/amii-android-studio-extension/main/readmeAssets/plugin_logo.png" ></img>
+    <img alt="Plugin Logo" height="256px" src="https://raw.githubusercontent.com/ani-memes/amii-android-extension/main/readmeAssets/plugin_logo.png" ></img>
 </div>
 
-# AMII - Android Studio Extension
+# AMII - Android Extension
 
 # [Active Work in Progress!!]
 
-![Build](https://github.com/ani-memes/amii-android-studio-extension/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/16518-anime-memes--android-studio-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-studio-extension)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-studio-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-studio-extension)
+![Build](https://github.com/ani-memes/amii-android-extension/workflows/Build/badge.svg)
+[![Version](https://img.shields.io/jetbrains/plugin/v/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
 
 <!-- Plugin description -->
-Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin on the Android Studio Platform.
+Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin on the Android  Platform.
 Don't miss out on any of the important features supplied by AMII!
 <!-- Plugin description end -->
 
@@ -24,7 +24,7 @@ Don't miss out on any of the important features supplied by AMII!
 
 - Manually:
 
-  Download the [latest release](https://github.com/ani-memes/amii-android-studio-extension/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/ani-memes/amii-android-extension/releases/latest) and install it manually using
   <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 ---

@@ -1,1 +1,1 @@
-rootProject.name = "amii-android-studio-extension"
+rootProject.name = "amii-android-extension"

@@ -25,8 +25,8 @@ private fun buildUpdateMessage(updateAsset: String): String =
       <ul>
         <li>Fixed MIKU not reacting to test the first time you ever run them.</li>
       </ul>
-      <br>See the <a href="https://github.com/ani-memes/amii-android-studio-extension#documentation">documentation</a> for features, usages, and configurations.
-      <br>The <a href="https://github.com/ani-memes/amii-android-studio-extension/blob/master/CHANGELOG.md">changelog</a> is available for more details.
+      <br>See the <a href="https://github.com/ani-memes/amii-android-extension#documentation">documentation</a> for features, usages, and configurations.
+      <br>The <a href="https://github.com/ani-memes/amii-android-extension/blob/master/CHANGELOG.md">changelog</a> is available for more details.
       <br><br>
       <div style='text-align: center'><img alt='Thanks for downloading!' src="$updateAsset"
       width='256'><br/><br/><br/>
