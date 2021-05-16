@@ -9,7 +9,7 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
 
 <!-- Plugin description -->
-Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) for the Android Plugin (eg: Android Studio & Intellij Idea).
+Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin and the Android Plugin (eg: Android Studio & Intellij Idea).
 Don't miss out on any of the important features supplied by AMII!
 <!-- Plugin description end -->
 
