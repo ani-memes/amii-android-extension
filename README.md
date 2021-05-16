@@ -4,14 +4,12 @@
 
 # AMII - Android Extension
 
-# [Active Work in Progress!!]
-
 ![Build](https://github.com/ani-memes/amii-android-extension/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16518-anime-memes--android-extension.svg)](https://plugins.jetbrains.com/plugin/16518-anime-memes--android-extension)
 
 <!-- Plugin description -->
-Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) plugin on the Android  Platform.
+Enables full functionality of the [Anime Meme](https://github.com/ani-memes/AMII) for the Android Plugin (eg: Android Studio & Intellij Idea).
 Don't miss out on any of the important features supplied by AMII!
 <!-- Plugin description end -->
 
@@ -19,7 +17,7 @@ Don't miss out on any of the important features supplied by AMII!
 
 - Using IDE built-in plugin system:
 
-  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Anime Memes - Rider Extension"</kbd> >
+  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Anime Memes - Android Extension"</kbd> >
   <kbd>Install Plugin</kbd>
 
 - Manually:
@@ -32,7 +30,7 @@ Don't miss out on any of the important features supplied by AMII!
 # Documentation
 
 - [Features](#features)
-  - [Test Result Interactions](#test-result-interactions)
+  - [Build Task Interactions](#build-tasks-interactions)
 
 [comment]: <> (  - [Build Task Interations]&#40;#build-tasks&#41;)
 
@@ -50,19 +48,6 @@ Just the features that cannot be provided by the generic, platform agnostic plug
 To see a full list of features, [please see AMII's documentation](https://github.com/ani-memes/AMII#documentation).
 
 Without this extension you'll be missing out on:
-
-### Test Result Interactions
-
-Tests pass and tests fail, that's just a fact of life.
-You know what's better than red x's and green check marks?
-
-> Anime Memes
-
-**Test Pass**
-![Test Pass](./readmeAssets/test_pass.gif)
-
-**Test Failures**
-![Test Failure](./readmeAssets/test_fail.gif)
 
 ### Build Tasks Interactions
 

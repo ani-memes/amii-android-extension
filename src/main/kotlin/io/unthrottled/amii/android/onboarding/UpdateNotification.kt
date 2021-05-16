@@ -10,7 +10,7 @@ import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.popup.Balloon
 import com.intellij.openapi.util.Disposer
 import com.intellij.ui.BalloonLayoutData
-import icons.AMIIRiderIcons.PLUGIN_ICON
+import icons.AMIIAndroidIcons.PLUGIN_ICON
 import io.unthrottled.amii.android.config.Constants.PLUGIN_NAME
 import io.unthrottled.amii.android.tools.BalloonTools.fetchBalloonParameters
 import io.unthrottled.amii.assets.MemeAssetCategory
@@ -23,7 +23,7 @@ private fun buildUpdateMessage(updateAsset: String): String =
   """
       What's New?<br>
       <ul>
-        <li>Fixed MIKU not reacting to test the first time you ever run them.</li>
+        <li>Fixed MIKU not reacting to your build events.</li>
       </ul>
       <br>See the <a href="https://github.com/ani-memes/amii-android-extension#documentation">documentation</a> for features, usages, and configurations.
       <br>The <a href="https://github.com/ani-memes/amii-android-extension/blob/master/CHANGELOG.md">changelog</a> is available for more details.
