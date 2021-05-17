@@ -35,8 +35,10 @@ class GradleListener(
 
   override fun execute(result: GradleInvocationResult) {
     when {
-      !(result.isBuildSuccessful ||
-        result.isBuildCancelled) -> {
+      !(
+        result.isBuildSuccessful ||
+          result.isBuildCancelled
+        ) -> {
         project.messageBus
           .syncPublisher(EVENT_TOPIC)
           .onDispatch(
