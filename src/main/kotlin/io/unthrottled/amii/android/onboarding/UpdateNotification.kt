@@ -49,7 +49,6 @@ object UpdateNotification {
     newVersion: String
   ) {
     val updateNotification = notificationGroup.createNotification(
-      "$PLUGIN_NAME updated to v$newVersion",
       buildUpdateMessage(
         VisualAssetDefinitionService.getRandomAssetByCategory(
           MemeAssetCategory.HAPPY,
@@ -59,6 +58,7 @@ object UpdateNotification {
       ),
       NotificationType.INFORMATION
     )
+      .setTitle("$PLUGIN_NAME updated to v$newVersion")
       .setIcon(PLUGIN_ICON)
       .setListener(NotificationListener.UrlOpeningListener(false))
 
