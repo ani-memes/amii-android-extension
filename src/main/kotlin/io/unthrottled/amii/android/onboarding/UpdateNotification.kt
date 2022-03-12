@@ -23,7 +23,7 @@ private fun buildUpdateMessage(updateAsset: String): String =
   """
       What's New?<br>
       <ul>
-        <li>Fixed MIKU not reacting to your build events.</li>
+        <li>Added Jetbrains Platform 2021.3 Build Support</li>
       </ul>
       <br>See the <a href="https://github.com/ani-memes/amii-android-extension#documentation">documentation</a> for features, usages, and configurations.
       <br>The <a href="https://github.com/ani-memes/amii-android-extension/blob/master/CHANGELOG.md">changelog</a> is available for more details.

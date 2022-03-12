@@ -22,6 +22,7 @@ import io.sentry.SentryOptions
 import io.sentry.protocol.Message
 import io.sentry.protocol.User
 import io.unthrottled.amii.android.config.Config
+import io.unthrottled.amii.android.tools.runSafely
 import java.awt.Component
 import java.lang.management.ManagementFactory
 import java.text.SimpleDateFormat
@@ -33,21 +34,6 @@ import java.util.stream.Collectors
 class ErrorReporter : ErrorReportSubmitter() {
   companion object {
     init {
-      Sentry.init { options: SentryOptions ->
-        options.dsn =
-          ApplicationManager.getApplication().executeOnPooledThread(
-            Callable {
-              RestClient.performGet(
-                "https://jetbrains.assets.unthrottled.io/amii/sentry-dsn.txt"
-              )
-                .map { it.trim() }
-                .orElse(
-                  "https://9d45400dcf214fffb48f538e571781b4@o403546" +
-                    ".ingest.sentry.io/5561788?maxmessagelength=50000"
-                )
-            }
-          ).get()
-      }
       Sentry.setUser(
         User().apply {
           this.id = Config.instance.userId
@@ -68,6 +54,23 @@ class ErrorReporter : ErrorReportSubmitter() {
   ): Boolean {
     ApplicationManager.getApplication()
       .executeOnPooledThread {
+        runSafely({
+          Sentry.init { options: SentryOptions ->
+            options.dsn =
+              ApplicationManager.getApplication().executeOnPooledThread(
+                Callable {
+                  RestClient.performGet(
+                    "https://jetbrains.assets.unthrottled.io/amii/sentry-dsn.txt"
+                  )
+                    .map { it.trim() }
+                    .orElse(
+                      "https://9d45400dcf214fffb48f538e571781b4@o403546" +
+                        ".ingest.sentry.io/5561788?maxmessagelength=50000"
+                    )
+                }
+              ).get()
+          }
+        }) {}
         events.forEach {
           Sentry.captureEvent(
             addSystemInfo(
