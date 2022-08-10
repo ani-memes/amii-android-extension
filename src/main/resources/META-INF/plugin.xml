@@ -3,7 +3,7 @@
   <name>Anime Memes - Android Extension</name>
   <vendor>Unthrottled</vendor>
 
-  <idea-version since-build="203.5981.141"/>
+  <idea-version since-build="203.5981.155"/>
 
   <!-- Product and plugin compatibility requirements -->
   <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
@@ -15,6 +15,8 @@
   <extensions defaultExtensionNs="com.intellij">
     <applicationService serviceImplementation="io.unthrottled.amii.android.config.Config"/>
     <applicationService serviceImplementation="io.unthrottled.amii.android.PluginMaster"/>
+    <notificationGroup displayType="BALLOON" id="AMII - Android Extension Updates"
+                       isLogByDefault="false" toolWindowId="AMII - Android Extension Updates" />
   </extensions>
 
   <applicationListeners>
