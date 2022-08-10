@@ -56,7 +56,7 @@ internal data class ProjectListeners(
 ) : Disposable {
 
   init {
-    GradleBuildInvoker.getInstance(project).add(GradleListener(project))
+    project.getService(GradleBuildInvoker::class.java)?.add(GradleListener(project))
   }
 
   override fun dispose() {
