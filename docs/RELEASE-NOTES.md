@@ -1,3 +1,3 @@
-## Added
+## Fixed
 
-- 2022.1 Build Support
+- Not being able to open up projects.

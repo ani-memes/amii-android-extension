@@ -22,7 +22,7 @@ private fun buildUpdateMessage(updateAsset: String): String =
   """
       What's New?<br>
       <ul>
-        <li>Added Jetbrains Platform 2022.1 Build Support</li>
+        <li>Fixed not being able to open up projects</li>
       </ul>
       <br>See the <a href="https://github.com/ani-memes/amii-android-extension#documentation">documentation</a> for features, usages, and configurations.
       <br>The <a href="https://github.com/ani-memes/amii-android-extension/blob/master/CHANGELOG.md">changelog</a> is available for more details.

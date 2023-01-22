@@ -2,6 +2,12 @@
 
 # AMII Android Extensions Changelog
 
+## [0.3.0]
+
+## Fixed
+
+- Not being able to open up projects.
+
 ## [0.2.0]
 
 ## Added
