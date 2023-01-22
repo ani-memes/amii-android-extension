@@ -3,7 +3,7 @@
   <name>Anime Memes - Android Extension</name>
   <vendor>Unthrottled</vendor>
 
-  <idea-version since-build="203.5981.155"/>
+  <idea-version since-build="213.7172"/>
 
   <!-- Product and plugin compatibility requirements -->
   <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
@@ -26,6 +26,8 @@
               topic="com.intellij.ide.plugins.DynamicPluginListener"/>
   </applicationListeners>
   <projectListeners>
+    <listener class="io.unthrottled.amii.android.listeners.GradleListener"
+              topic="com.android.tools.idea.gradle.project.build.GradleBuildListener"/>
   </projectListeners>
   <actions>
   </actions>
