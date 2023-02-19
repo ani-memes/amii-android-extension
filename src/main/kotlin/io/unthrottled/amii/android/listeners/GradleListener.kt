@@ -19,7 +19,7 @@ internal enum class TaskStatus {
 }
 
 class GradleListener(
-  private val project: Project,
+  private val project: Project
 ) :
   GradleBuildListener,
   UserEventListener,
@@ -70,7 +70,7 @@ class GradleListener(
               UserEventCategory.NEGATIVE,
               PluginMessageBundle.message("user.event.task.failure.name"),
               project
-            ),
+            )
           )
       }
 
@@ -84,7 +84,7 @@ class GradleListener(
               UserEventCategory.POSITIVE,
               PluginMessageBundle.message("user.event.task.success.name"),
               project
-            ),
+            )
           )
       }
     }
