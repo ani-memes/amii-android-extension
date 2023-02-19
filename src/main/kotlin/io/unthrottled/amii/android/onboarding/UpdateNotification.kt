@@ -46,7 +46,7 @@ object UpdateNotification {
     val updateNotification = notificationGroup.createNotification(
       buildUpdateMessage(
         VisualAssetDefinitionService.getRandomAssetByCategory(
-          MemeAssetCategory.HAPPY,
+          MemeAssetCategory.HAPPY
         ).map { it.filePath.toString() }.orElseGet {
           "https://doki.assets.unthrottled.io/misc/update_celebration.gif"
         }
